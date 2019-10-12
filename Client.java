@@ -40,7 +40,7 @@ public class Client {
 
         /* TO DO Here*/
 
-        Socket s = new Socket("localhost", 7070);
+        Socket s = new Socket("localhost", 7070);           //made a socket with port 7070 and name localhost
 
         BufferedReader input =
 
@@ -56,7 +56,7 @@ public class Client {
 
         /* TO DO Here*/
 
-        s.close();
+        s.close();                                                      //closed the socket
 
         System.exit(0);
 

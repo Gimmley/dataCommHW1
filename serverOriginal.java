@@ -38,7 +38,7 @@ public class serverOriginal {
 
         /* TO DO here */
 
-        ServerSocket listener = new ServerSocket(7070);
+        ServerSocket listener = new ServerSocket(7070);                          //made new listener
 
         System.out.println("ServerSocket running on port 7070");
 
@@ -53,7 +53,7 @@ public class serverOriginal {
                  */
 
                 /* TO DO here*/
-                Socket socket = listener.accept();
+                Socket socket = listener.accept();                                  //used socket to accept via listner
 
                 try {
 
@@ -74,7 +74,7 @@ public class serverOriginal {
                      */
 
                     /* To Do Here */
-                    socket.close();
+                    socket.close();                                                     //closed socket
 
                 }
 
@@ -88,7 +88,7 @@ public class serverOriginal {
 
              */
 
-            /* To Do Here */
+            /* To Do Here */                                    //closed listener
             listener.close();
 
         }
